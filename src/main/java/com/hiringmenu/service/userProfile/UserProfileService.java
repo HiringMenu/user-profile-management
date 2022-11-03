@@ -1,11 +1,11 @@
-package com.hiringmenu.service;
+package com.hiringmenu.service.userProfile;
 
 import com.hiringmenu.models.userProfile.UserProfileRequest;
 import com.hiringmenu.persistance.UserProfileRepository;
-import com.hiringmenu.service.interfaces.IUserProfileService;
+import com.hiringmenu.service.userProfile.interfaces.IUserProfileService;
 import lombok.extern.slf4j.Slf4j;
-import org.jvnet.hk2.annotations.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import java.util.Optional;
 
 @Slf4j

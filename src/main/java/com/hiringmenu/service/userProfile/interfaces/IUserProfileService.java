@@ -1,4 +1,4 @@
-package com.hiringmenu.service.interfaces;
+package com.hiringmenu.service.userProfile.interfaces;
 
 import com.hiringmenu.models.userProfile.UserProfileRequest;
 
